@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'none'">
+<title>ouvir-ptbr: leitura em voz alta que entende números</title>
+<meta name="description" content="Cole um texto e ouça: valores, CPF, datas, leis e versículos lidos do jeito que se fala, direto no navegador.">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<a class="pular" href="#texto">Ir para o texto</a>
+<header class="topo">
+  <div class="largura">
+    <p class="marca">ouvir-ptbr</p>
+    <h1>Leitura em voz alta que entende números, documentos e leis</h1>
+    <p class="sub">Cole um texto e ouça. Valores, CPF, datas, horários, leis e versículos são lidos do jeito que se fala. O texto é preparado aqui mesmo, no seu navegador.</p>
+  </div>
+</header>
+
+<main class="largura">
+  <section aria-labelledby="t-exemplos" class="bloco">
+    <h2 id="t-exemplos" class="rotulo">Experimente um exemplo <span class="nota">(dados fictícios)</span></h2>
+    <div class="exemplos" role="group" aria-label="Exemplos">
+      <button type="button" class="exemplo" data-exemplo="contrato">Extrato de contrato</button>
+      <button type="button" class="exemplo" data-exemplo="saude">Aviso da Saúde</button>
+      <button type="button" class="exemplo" data-exemplo="igreja">Boletim da igreja</button>
+    </div>
+  </section>
+
+  <section class="bloco grade">
+    <div class="coluna">
+      <label for="texto" class="rotulo">Seu texto</label>
+      <textarea id="texto" rows="7" spellcheck="false" placeholder="Cole aqui um aviso, edital, boletim..."></textarea>
+
+      <div class="controles">
+        <div class="botoes">
+          <button type="button" id="ouvir" class="primario">
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+            <span>Ouvir</span>
+          </button>
+          <button type="button" id="pausar" class="secundario" disabled>Pausar</button>
+          <button type="button" id="parar" class="secundario" disabled>Parar</button>
+        </div>
+
+        <p id="alerta" class="alerta" role="alert" hidden></p>
+
+        <label class="chave">
+          <input type="checkbox" id="corrigir" checked>
+          <span class="trilho" aria-hidden="true"></span>
+          <span>Preparar números e siglas antes de ler</span>
+        </label>
+
+        <div class="ajustes">
+          <div class="campo">
+            <label for="voz" class="rotulo-pequeno">Voz</label>
+            <select id="voz"></select>
+          </div>
+          <div class="campo">
+            <label for="velocidade" class="rotulo-pequeno">Velocidade: <output id="vel-valor" for="velocidade">1,0</output></label>
+            <input type="range" id="velocidade" min="0.6" max="1.6" step="0.1" value="1">
+          </div>
+        </div>
+        <p id="sobre-voz" class="selo" aria-live="polite"></p>
+      </div>
+    </div>
+
+    <div class="coluna">
+      <h2 class="rotulo" id="t-leitura">Como vai ser lido</h2>
+      <p id="resumo" class="resumo" aria-live="polite"></p>
+      <div id="leitura" class="leitura" aria-labelledby="t-leitura" tabindex="0"></div>
+      <p class="legenda"><span class="amostra ajustado">trecho preparado</span> <span class="amostra duvida">leitura literal (pode ter mais de um sentido)</span></p>
+      <p id="agora" class="agora" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <section class="bloco texto-corrido" aria-labelledby="t-sobre">
+    <h2 id="t-sobre">O que isto faz e o que não faz</h2>
+    <ul>
+      <li>Prepara o texto antes de qualquer voz: o navegador, um leitor de tela ou um serviço pago. Nenhuma palavra sua é apagada; só números, símbolos e abreviações viram palavras.</li>
+      <li>Na dúvida, não adivinha. "3/4" sem contexto é lido "três barra quatro"; ano com dois dígitos não ganha século inventado.</li>
+      <li>A preparação acontece no seu aparelho. Já a voz é do navegador: algumas funcionam no aparelho, outras usam a internet. A página mostra qual é qual.</li>
+      <li>Não substitui um site acessível nem é exigência legal por si; é um recurso a mais.</li>
+      <li>Dose de remédio e prazo legal: confira sempre no documento original.</li>
+    </ul>
+    <p class="rodape">Código aberto (MIT). <a href="https://github.com/jsmilenium/ouvir-ptbr">Ver no GitHub</a>.</p>
+    <p class="rodape">Voz offline: <a href="https://huggingface.co/semfence/tiny-voca-ptbr">tiny-voca-ptbr</a>, de SemFence (Gustavo Toledo), CC BY 4.0, sem alteração; pronúncia por <a href="https://github.com/SemFence/dizione-ptbr-js">dizione-ptbr</a> (Apache-2.0; dicionário derivado do MFA, CC BY 4.0); execução por <a href="https://github.com/microsoft/onnxruntime">ONNX Runtime Web</a> (MIT). A voz é gerada por computador.</p>
+  </section>
+</main>
+<script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,515 @@
+{
+ "sobre": "Saida do normalizador do dizione-ptbr (commit 6a3baa3) medida em 19/11/2026 no laboratorio isolado. Fixture: o CI NAO roda o dizione.",
+ "itens": [
+  {
+   "texto": "Paguei R$ 1.250,50 na conta.",
+   "cat": "dinheiro",
+   "dizione": "Paguei mil duzentos e cinquenta reais e cinquenta centavos na conta.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "O café custa R$ 0,99.",
+   "cat": "dinheiro",
+   "dizione": "O café custa noventa e nove centavos.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "O contrato vale R$ 12 milhões.",
+   "cat": "dinheiro",
+   "dizione": "O contrato vale doze reais milhões.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "A taxa é de US$ 3.",
+   "cat": "dinheiro",
+   "dizione": "A taxa é de US$ três.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "O boleto é de R$ 1.000,00.",
+   "cat": "dinheiro",
+   "dizione": "O boleto é de mil reais.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Recebi R$ 2,05 de troco.",
+   "cat": "dinheiro",
+   "dizione": "Recebi dois reais e cinco centavos de troco.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "O empenho foi de R$ 345.678,90.",
+   "cat": "dinheiro",
+   "dizione": "O empenho foi de trezentos e quarenta e cinco mil seiscentos e setenta e oito reais e noventa centavos.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "A multa é de R$ 1,00.",
+   "cat": "dinheiro",
+   "dizione": "A multa é de um real.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Custou R$ 21,01.",
+   "cat": "dinheiro",
+   "dizione": "Custou vinte e um reais e um centavo.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "O orçamento é de R$ 1,5 bilhão.",
+   "cat": "dinheiro",
+   "dizione": "O orçamento é de um real e cinquenta centavos bilhão.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "O ingresso custa R$ 50.",
+   "cat": "dinheiro",
+   "dizione": "O ingresso custa cinquenta reais.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Doou € 200 para a obra.",
+   "cat": "dinheiro",
+   "dizione": "Doou € duzentos para a obra.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "A reunião é em 14/03/2026.",
+   "cat": "data",
+   "dizione": "A reunião é em quatorze de março de dois mil e vinte e seis.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "O feriado é 1º de maio.",
+   "cat": "data",
+   "dizione": "O feriado é primeiro de maio.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "O evento vai de 2 a 5 de novembro.",
+   "cat": "data",
+   "dizione": "O evento vai de dois a cinco de novembro.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Nasci em 01/01/2000.",
+   "cat": "data",
+   "dizione": "Nasci em primeiro de janeiro de dois mil.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "O prazo vence em 31/12.",
+   "cat": "data",
+   "dizione": "O prazo vence em trinta e um de dezembro.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Em 2026 tudo muda.",
+   "cat": "data",
+   "dizione": "Em dois mil e vinte e seis tudo muda.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "A Constituição é de 1988.",
+   "cat": "data",
+   "dizione": "A Constituição é de mil novecentos e oitenta e oito.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "O culto é no dia 22/11/2026.",
+   "cat": "data",
+   "dizione": "O culto é no dia vinte e dois de novembro de dois mil e vinte e seis.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Entregue até 05/10/2026.",
+   "cat": "data",
+   "dizione": "Entregue até cinco de outubro de dois mil e vinte e seis.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "A data é 2026-11-19.",
+   "cat": "data",
+   "dizione": "A data é dois mil e vinte e seis-onze-dezenove.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "Chegue às 15h30.",
+   "cat": "hora",
+   "dizione": "Chegue às quinze horas e trinta minutos.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "A loja abre às 8h.",
+   "cat": "hora",
+   "dizione": "A loja abre às oito horas.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "O culto começa às 19:00.",
+   "cat": "hora",
+   "dizione": "O culto começa às dezenove horas.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Saímos às 7h05.",
+   "cat": "hora",
+   "dizione": "Saímos às sete horas e cinco minutos.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "O plantão vai das 22h às 6h.",
+   "cat": "hora",
+   "dizione": "O plantão vai das vinte e duas horas às seis horas.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Ligue até 12:45.",
+   "cat": "hora",
+   "dizione": "Ligue até doze horas e quarenta e cinco minutos.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Acordei à 1h.",
+   "cat": "hora",
+   "dizione": "Acordei à uma hora.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "O voo sai às 21h15.",
+   "cat": "hora",
+   "dizione": "O voo sai às vinte e uma horas e quinze minutos.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Meu CPF é 123.456.789-09.",
+   "cat": "documento",
+   "dizione": "Meu CPF é cento e vinte e três milhões quatrocentos e cinquenta e seis mil setecentos e oitenta e nove-nove.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "CNPJ 12.345.678/0001-95.",
+   "cat": "documento",
+   "dizione": "CNPJ doze milhões trezentos e quarenta e cinco mil seiscentos e setenta e oito/um-noventa e cinco.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "Protocolo 2026/004512-7.",
+   "cat": "documento",
+   "dizione": "Protocolo dois mil e vinte e seis/quatro mil quinhentos e doze-sete.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "Conforme a Lei 14.133/2021.",
+   "cat": "documento",
+   "dizione": "Conforme a Lei quatorze mil cento e trinta e três/dois mil e vinte e um.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "Veja o art. 5º, inciso II.",
+   "cat": "documento",
+   "dizione": "Veja o art. quinto, inciso II.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "O processo nº 1234/2026 foi arquivado.",
+   "cat": "documento",
+   "dizione": "O processo nº mil duzentos e trinta e quatro/dois mil e vinte e seis foi arquivado.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "Decreto nº 10.024/2019.",
+   "cat": "documento",
+   "dizione": "Decreto nº dez mil e vinte e quatro/dois mil e dezenove.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "CEP 59600-000.",
+   "cat": "documento",
+   "dizione": "CEP cinquenta e nove mil e seiscentos-zero.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "Ligue para (41) 99999-1234.",
+   "cat": "contato",
+   "dizione": "Ligue para (quarenta e um) noventa e nove mil novecentos e noventa e nove-mil duzentos e trinta e quatro.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "O telefone é 0800 123 4567.",
+   "cat": "contato",
+   "dizione": "O telefone é oitocentos cento e vinte e três quatro mil quinhentos e sessenta e sete.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "Acesse www.prefeitura.rn.gov.br.",
+   "cat": "contato",
+   "dizione": "Acesse www.prefeitura.rn.gov.br.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "Escreva para contato@igreja.org.",
+   "cat": "contato",
+   "dizione": "Escreva para contato@igreja.org.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "WhatsApp (84) 3315-0000.",
+   "cat": "contato",
+   "dizione": "WhatsApp (oitenta e quatro) três mil trezentos e quinze-zero.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "A estrada tem 12 km.",
+   "cat": "unidade",
+   "dizione": "A estrada tem doze km.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "O terreno tem 450 m².",
+   "cat": "unidade",
+   "dizione": "O terreno tem quatrocentos e cinquenta m².",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "Desconto de 50%.",
+   "cat": "unidade",
+   "dizione": "Desconto de cinquenta por cento.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Inflação de 4,5%.",
+   "cat": "unidade",
+   "dizione": "Inflação de quatro vírgula cinco por cento.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Pesa 2 kg.",
+   "cat": "unidade",
+   "dizione": "Pesa dois kg.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "Use 500 ml de água.",
+   "cat": "unidade",
+   "dizione": "Use quinhentos ml de água.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "Velocidade máxima de 60 km/h.",
+   "cat": "unidade",
+   "dizione": "Velocidade máxima de sessenta km/h.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "Temperatura de 30 °C.",
+   "cat": "unidade",
+   "dizione": "Temperatura de trinta °C.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "O tubo tem 3 cm.",
+   "cat": "unidade",
+   "dizione": "O tubo tem três cm.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "Choveu 120 mm.",
+   "cat": "unidade",
+   "dizione": "Choveu cento e vinte mm.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "O Sr. João chegou.",
+   "cat": "abreviacao",
+   "dizione": "O Senhor João chegou.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "A Dra. Ana atende hoje.",
+   "cat": "abreviacao",
+   "dizione": "A Doutora Ana atende hoje.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Fale com o Pr. Arthur.",
+   "cat": "abreviacao",
+   "dizione": "Fale com o Pr. Arthur.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "A Profa. Maria saiu.",
+   "cat": "abreviacao",
+   "dizione": "A Professora Maria saiu.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Rua das Flores, nº 45.",
+   "cat": "abreviacao",
+   "dizione": "Rua das Flores, nº quarenta e cinco.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "Av. Brasil, 1500.",
+   "cat": "abreviacao",
+   "dizione": "Avenida Brasil, mil e quinhentos.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Veja a pág. 12.",
+   "cat": "abreviacao",
+   "dizione": "Veja a pág. doze.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "O XXI Congresso começa amanhã.",
+   "cat": "ordinal_romano",
+   "dizione": "O XXI Congresso começa amanhã.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "Moro no 3º andar.",
+   "cat": "ordinal_romano",
+   "dizione": "Moro no terceiro andar.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Ficou em 2ª posição.",
+   "cat": "ordinal_romano",
+   "dizione": "Ficou em segunda posição.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Dom Pedro II governou.",
+   "cat": "ordinal_romano",
+   "dizione": "Dom Pedro II governou.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "No século XX houve guerras.",
+   "cat": "ordinal_romano",
+   "dizione": "No século XX houve guerras.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "Leia o capítulo IV.",
+   "cat": "ordinal_romano",
+   "dizione": "Leia o capítulo IV.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "Foi o 10º aniversário.",
+   "cat": "ordinal_romano",
+   "dizione": "Foi o décimo aniversário.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "O papa João XXIII.",
+   "cat": "ordinal_romano",
+   "dizione": "O papa João XXIII.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "A 1ª Igreja Batista.",
+   "cat": "ordinal_romano",
+   "dizione": "A primeira Igreja Batista.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Bento XVI renunciou.",
+   "cat": "ordinal_romano",
+   "dizione": "Bento XVI renunciou.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "Temos 3 casas.",
+   "cat": "numero",
+   "dizione": "Temos três casas.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "São 21 pessoas.",
+   "cat": "numero",
+   "dizione": "São vinte e uma pessoas.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Comprei 2 livros.",
+   "cat": "numero",
+   "dizione": "Comprei dois livros.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Há 1.500 inscritos.",
+   "cat": "numero",
+   "dizione": "Há mil e quinhentos inscritos.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Foram 1.000.000 de votos.",
+   "cat": "numero",
+   "dizione": "Foram um milhão de votos.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "O índice é 0,75.",
+   "cat": "numero",
+   "dizione": "O índice é zero vírgula setenta e cinco.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Vieram 2 mulheres.",
+   "cat": "numero",
+   "dizione": "Vieram duas mulheres.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Faltam 101 dias.",
+   "cat": "numero",
+   "dizione": "Faltam cento e um dias.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Foram 2 semanas.",
+   "cat": "numero",
+   "dizione": "Foram duas semanas.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Li 32 capítulos.",
+   "cat": "numero",
+   "dizione": "Li trinta e dois capítulos.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Leia João 3:16.",
+   "cat": "biblia",
+   "dizione": "Leia João três horas e dezesseis minutos.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "O Salmo 23:1 diz assim.",
+   "cat": "biblia",
+   "dizione": "O Salmo vinte e três:um diz assim.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "Em Gênesis 1:1-3 lemos.",
+   "cat": "biblia",
+   "dizione": "Em Gênesis um:um-três lemos.",
+   "dizione_ok_no_lab": false
+  },
+  {
+   "texto": "Romanos 8.28.",
+   "cat": "biblia",
+   "dizione": "Romanos oito.vinte e oito.",
+   "dizione_ok_no_lab": true
+  },
+  {
+   "texto": "1 Coríntios 13.",
+   "cat": "biblia",
+   "dizione": "um Coríntios treze.",
+   "dizione_ok_no_lab": false
+  }
+ ]
+}

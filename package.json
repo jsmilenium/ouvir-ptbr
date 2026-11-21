@@ -1,0 +1,43 @@
+{
+  "name": "ouvir-ptbr",
+  "version": "0.1.0",
+  "description": "Normalizador de texto pt-BR para leitura em voz alta: dinheiro, CPF, CNPJ, leis, datas, horas, unidades, romanos e referências bíblicas por extenso, com mapa de cada trecho expandido.",
+  "type": "module",
+  "license": "MIT",
+  "author": "ouvir-ptbr contributors",
+  "keywords": [
+    "tts",
+    "text-to-speech",
+    "pt-br",
+    "portugues",
+    "normalizacao",
+    "acessibilidade",
+    "leitor",
+    "voz"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "corpus"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "tsc --noEmit -p . && node --test \"test/*.test.ts\"",
+    "sabotagem": "node scripts/sabotagem.ts",
+    "build": "tsc -p . && node scripts/ajustar-dts.ts",
+    "demo": "npm run build && node scripts/copiar-demo.ts",
+    "test:navegador": "python scripts/testar_navegador.py",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3"
+  }
+}

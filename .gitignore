@@ -1,0 +1,7 @@
+node_modules/
+.tmp/
+dist/
+demo/lib/
+demo/vendor/
+demo/modelo/
+*.log

@@ -1,0 +1,1541 @@
+{
+ "versao": 1,
+ "sobre": "Corpus do ouvir-ptbr: texto pt-BR e as leituras aceitas por extenso. Escrito à mão antes das regras (19/11/2026) e congelado. Comparação: minúsculas, pontuação vira espaço, espaços colapsados. Itens 'negativo' têm de sair IDÊNTICOS ao texto. CPF, CNPJ e telefones são fictícios. Categoria 'regressao' (19/11 tarde): casos achados ao rodar o normalizador sobre texto real do disco e na revisão; entraram DEPOIS das regras, como regressão.",
+ "itens": [
+  {
+   "cat": "negativo",
+   "texto": "Hoje é dia de culto na igreja.",
+   "aceitas": [
+    "Hoje é dia de culto na igreja."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "AVISO IMPORTANTE: a reunião foi adiada.",
+   "aceitas": [
+    "AVISO IMPORTANTE: a reunião foi adiada."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Ela disse: não vou!",
+   "aceitas": [
+    "Ela disse: não vou!"
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Vou à casa da Ana às vezes.",
+   "aceitas": [
+    "Vou à casa da Ana às vezes."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "O MIX de músicas ficou ótimo.",
+   "aceitas": [
+    "O MIX de músicas ficou ótimo."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Estudo Direito CIVIL à noite.",
+   "aceitas": [
+    "Estudo Direito CIVIL à noite."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "A música se chama I Love You.",
+   "aceitas": [
+    "A música se chama I Love You."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Moro no Paraná (PR) desde criança.",
+   "aceitas": [
+    "Moro no Paraná (PR) desde criança."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "O rei Davi escreveu salmos.",
+   "aceitas": [
+    "O rei Davi escreveu salmos."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Mil vezes obrigado, dez vezes mais.",
+   "aceitas": [
+    "Mil vezes obrigado, dez vezes mais."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Leia o capítulo inteiro com calma.",
+   "aceitas": [
+    "Leia o capítulo inteiro com calma."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "A Secretaria de Saúde informa.",
+   "aceitas": [
+    "A Secretaria de Saúde informa."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Eu vi o Sr. na rua?",
+   "aceitas": [
+    "Eu vi o senhor na rua?"
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Viva a vida com alegria.",
+   "aceitas": [
+    "Viva a vida com alegria."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Precisamos de mais voluntários.",
+   "aceitas": [
+    "Precisamos de mais voluntários."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "O SUS atende todos.",
+   "aceitas": [
+    "O SUS atende todos."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Pague com PIX.",
+   "aceitas": [
+    "Pague com PIX."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Texto com acentuação: ação, coração, pão.",
+   "aceitas": [
+    "Texto com acentuação: ação, coração, pão."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Linha um\nLinha dois",
+   "aceitas": [
+    "Linha um\nLinha dois"
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Ele correu, pulou e caiu.",
+   "aceitas": [
+    "Ele correu, pulou e caiu."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "A Bíblia diz que Deus é amor.",
+   "aceitas": [
+    "A Bíblia diz que Deus é amor."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Prefeitura Municipal de Natal",
+   "aceitas": [
+    "Prefeitura Municipal de Natal"
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Cuidado: piso molhado.",
+   "aceitas": [
+    "Cuidado: piso molhado."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "O vi ontem na praça.",
+   "aceitas": [
+    "O vi ontem na praça."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "DI e LI são sílabas.",
+   "aceitas": [
+    "DI e LI são sílabas."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Pedro e João foram ao templo.",
+   "aceitas": [
+    "Pedro e João foram ao templo."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Não sei, talvez.",
+   "aceitas": [
+    "Não sei, talvez."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Tudo bem com você?",
+   "aceitas": [
+    "Tudo bem com você?"
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Obrigado pela atenção!",
+   "aceitas": [
+    "Obrigado pela atenção!"
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "A ONU publicou o relatório.",
+   "aceitas": [
+    "A ONU publicou o relatório."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Ela é a Dra. da família?",
+   "aceitas": [
+    "Ela é a doutora da família?"
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Venha com fé e esperança.",
+   "aceitas": [
+    "Venha com fé e esperança."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "O IPTU vence logo.",
+   "aceitas": [
+    "O IPTU vence logo."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Use máscara, por favor.",
+   "aceitas": [
+    "Use máscara, por favor."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Ação entre amigos.",
+   "aceitas": [
+    "Ação entre amigos."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Mateus, Marcos, Lucas e João.",
+   "aceitas": [
+    "Mateus, Marcos, Lucas e João."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Cante louvores ao Senhor.",
+   "aceitas": [
+    "Cante louvores ao Senhor."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Informe seu CPF no balcão.",
+   "aceitas": [
+    "Informe seu CPF no balcão."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Horário de verão acabou.",
+   "aceitas": [
+    "Horário de verão acabou."
+   ]
+  },
+  {
+   "cat": "negativo",
+   "texto": "Fim.",
+   "aceitas": [
+    "Fim."
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "Paguei R$ 1.250,50 na conta.",
+   "aceitas": [
+    "paguei mil duzentos e cinquenta reais e cinquenta centavos na conta"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "O café custa R$ 0,99.",
+   "aceitas": [
+    "o café custa noventa e nove centavos"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "O contrato vale R$ 12 milhões.",
+   "aceitas": [
+    "o contrato vale doze milhões de reais"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "A taxa é de US$ 3.",
+   "aceitas": [
+    "a taxa é de três dólares"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "O boleto é de R$ 1.000,00.",
+   "aceitas": [
+    "o boleto é de mil reais"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "Recebi R$ 2,05 de troco.",
+   "aceitas": [
+    "recebi dois reais e cinco centavos de troco"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "O empenho foi de R$ 345.678,90.",
+   "aceitas": [
+    "o empenho foi de trezentos e quarenta e cinco mil seiscentos e setenta e oito reais e noventa centavos"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "A multa é de R$ 1,00.",
+   "aceitas": [
+    "a multa é de um real"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "Custou R$ 21,01.",
+   "aceitas": [
+    "custou vinte e um reais e um centavo"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "O orçamento é de R$ 1,5 bilhão.",
+   "aceitas": [
+    "o orçamento é de um bilhão e quinhentos milhões de reais"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "O ingresso custa R$ 50.",
+   "aceitas": [
+    "o ingresso custa cinquenta reais"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "Doou € 200 para a obra.",
+   "aceitas": [
+    "doou duzentos euros para a obra"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "O repasse foi de R$ 1,5 bi.",
+   "aceitas": [
+    "o repasse foi de um bilhão e quinhentos milhões de reais"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "A obra custou R$ 2,35 milhões.",
+   "aceitas": [
+    "a obra custou dois milhões trezentos e cinquenta mil reais"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "O prêmio é de R$ 1.500.000,00.",
+   "aceitas": [
+    "o prêmio é de um milhão e quinhentos mil reais"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "Arrecadamos R$ 350 mil.",
+   "aceitas": [
+    "arrecadamos trezentos e cinquenta mil reais"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "O saldo é R$ 1.000.000,00.",
+   "aceitas": [
+    "o saldo é um milhão de reais"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "Custa R$ 1.001,00.",
+   "aceitas": [
+    "custa mil e um reais"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "Valor: R$ 200,10.",
+   "aceitas": [
+    "valor duzentos reais e dez centavos"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "Valor: R$ 45,00.",
+   "aceitas": [
+    "valor quarenta e cinco reais"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "Gastou US$ 1,50.",
+   "aceitas": [
+    "gastou um dólar e cinquenta centavos"
+   ]
+  },
+  {
+   "cat": "dinheiro",
+   "texto": "O lote saiu por R$ 2.500.",
+   "aceitas": [
+    "o lote saiu por dois mil e quinhentos reais"
+   ]
+  },
+  {
+   "cat": "data",
+   "texto": "A reunião é em 14/03/2026.",
+   "aceitas": [
+    "a reunião é em quatorze de março de dois mil e vinte e seis",
+    "a reunião é em catorze de março de dois mil e vinte e seis"
+   ]
+  },
+  {
+   "cat": "data",
+   "texto": "O feriado é 1º de maio.",
+   "aceitas": [
+    "o feriado é primeiro de maio"
+   ]
+  },
+  {
+   "cat": "data",
+   "texto": "O evento vai de 2 a 5 de novembro.",
+   "aceitas": [
+    "o evento vai de dois a cinco de novembro"
+   ]
+  },
+  {
+   "cat": "data",
+   "texto": "Nasci em 01/01/2000.",
+   "aceitas": [
+    "nasci em primeiro de janeiro de dois mil"
+   ]
+  },
+  {
+   "cat": "data",
+   "texto": "O prazo vence em 31/12.",
+   "aceitas": [
+    "o prazo vence em trinta e um de dezembro"
+   ]
+  },
+  {
+   "cat": "data",
+   "texto": "Em 2026 tudo muda.",
+   "aceitas": [
+    "em dois mil e vinte e seis tudo muda"
+   ]
+  },
+  {
+   "cat": "data",
+   "texto": "A Constituição é de 1988.",
+   "aceitas": [
+    "a constituição é de mil novecentos e oitenta e oito"
+   ]
+  },
+  {
+   "cat": "data",
+   "texto": "O culto é no dia 22/11/2026.",
+   "aceitas": [
+    "o culto é no dia vinte e dois de novembro de dois mil e vinte e seis"
+   ]
+  },
+  {
+   "cat": "data",
+   "texto": "Entregue até 05/10/2026.",
+   "aceitas": [
+    "entregue até cinco de outubro de dois mil e vinte e seis"
+   ]
+  },
+  {
+   "cat": "data",
+   "texto": "A data é 2026-11-19.",
+   "aceitas": [
+    "a data é dezenove de novembro de dois mil e vinte e seis"
+   ]
+  },
+  {
+   "cat": "data",
+   "texto": "Vencimento: 12/03/26.",
+   "aceitas": [
+    "vencimento doze de março de vinte e seis"
+   ]
+  },
+  {
+   "cat": "data",
+   "texto": "Use 3/4 da área.",
+   "aceitas": [
+    "use três quartos da área"
+   ]
+  },
+  {
+   "cat": "data",
+   "texto": "Placar 3/4 no jogo.",
+   "aceitas": [
+    "placar três barra quatro no jogo"
+   ]
+  },
+  {
+   "cat": "data",
+   "texto": "Data inválida 32/13/2026.",
+   "aceitas": [
+    "data inválida trinta e dois barra treze barra dois mil e vinte e seis"
+   ]
+  },
+  {
+   "cat": "hora",
+   "texto": "Chegue às 15h30.",
+   "aceitas": [
+    "chegue às quinze horas e trinta minutos"
+   ]
+  },
+  {
+   "cat": "hora",
+   "texto": "A loja abre às 8h.",
+   "aceitas": [
+    "a loja abre às oito horas"
+   ]
+  },
+  {
+   "cat": "hora",
+   "texto": "O culto começa às 19:00.",
+   "aceitas": [
+    "o culto começa às dezenove horas"
+   ]
+  },
+  {
+   "cat": "hora",
+   "texto": "Saímos às 7h05.",
+   "aceitas": [
+    "saímos às sete horas e cinco minutos"
+   ]
+  },
+  {
+   "cat": "hora",
+   "texto": "O plantão vai das 22h às 6h.",
+   "aceitas": [
+    "o plantão vai das vinte e duas horas às seis horas"
+   ]
+  },
+  {
+   "cat": "hora",
+   "texto": "Ligue até 12:45.",
+   "aceitas": [
+    "ligue até doze horas e quarenta e cinco minutos"
+   ]
+  },
+  {
+   "cat": "hora",
+   "texto": "Acordei à 1h.",
+   "aceitas": [
+    "acordei à uma hora"
+   ]
+  },
+  {
+   "cat": "hora",
+   "texto": "O voo sai às 21h15.",
+   "aceitas": [
+    "o voo sai às vinte e uma horas e quinze minutos"
+   ]
+  },
+  {
+   "cat": "hora",
+   "texto": "Duração: 1h30min.",
+   "aceitas": [
+    "duração uma hora e trinta minutos"
+   ]
+  },
+  {
+   "cat": "hora",
+   "texto": "Espere 30min.",
+   "aceitas": [
+    "espere trinta minutos"
+   ]
+  },
+  {
+   "cat": "hora",
+   "texto": "Placar final 3:1.",
+   "aceitas": [
+    "placar final três um"
+   ]
+  },
+  {
+   "cat": "documento",
+   "texto": "Meu CPF é 123.456.789-09.",
+   "aceitas": [
+    "meu CPF é um dois três quatro cinco seis sete oito nove zero nove"
+   ]
+  },
+  {
+   "cat": "documento",
+   "texto": "CNPJ 12.345.678/0001-95.",
+   "aceitas": [
+    "CNPJ um dois três quatro cinco seis sete oito zero zero zero um nove cinco"
+   ]
+  },
+  {
+   "cat": "documento",
+   "texto": "CNPJ 12.ABC.345/01DE-35.",
+   "aceitas": [
+    "CNPJ um dois a bê cê três quatro cinco zero um dê é três cinco"
+   ]
+  },
+  {
+   "cat": "documento",
+   "texto": "Protocolo 2026/004512-7.",
+   "aceitas": [
+    "protocolo dois zero dois seis zero zero quatro cinco um dois sete"
+   ]
+  },
+  {
+   "cat": "documento",
+   "texto": "Conforme a Lei 14.133/2021.",
+   "aceitas": [
+    "conforme a lei quatorze mil cento e trinta e três de dois mil e vinte e um"
+   ]
+  },
+  {
+   "cat": "documento",
+   "texto": "Veja o art. 5º, inciso II.",
+   "aceitas": [
+    "veja o artigo quinto inciso dois"
+   ]
+  },
+  {
+   "cat": "documento",
+   "texto": "O processo nº 1234/2026 foi arquivado.",
+   "aceitas": [
+    "o processo número mil duzentos e trinta e quatro de dois mil e vinte e seis foi arquivado"
+   ]
+  },
+  {
+   "cat": "documento",
+   "texto": "Decreto nº 10.024/2019.",
+   "aceitas": [
+    "decreto número dez mil e vinte e quatro de dois mil e dezenove"
+   ]
+  },
+  {
+   "cat": "documento",
+   "texto": "CEP 59600-000.",
+   "aceitas": [
+    "CEP cinco nove seis zero zero zero zero zero"
+   ]
+  },
+  {
+   "cat": "documento",
+   "texto": "Lei nº 8.666/93.",
+   "aceitas": [
+    "lei número oito mil seiscentos e sessenta e seis de noventa e três"
+   ]
+  },
+  {
+   "cat": "documento",
+   "texto": "Conforme o art. 10 da lei.",
+   "aceitas": [
+    "conforme o artigo dez da lei"
+   ]
+  },
+  {
+   "cat": "documento",
+   "texto": "Art. 1º Fica criado o programa.",
+   "aceitas": [
+    "artigo primeiro fica criado o programa"
+   ]
+  },
+  {
+   "cat": "documento",
+   "texto": "Veja os arts. 32 a 34.",
+   "aceitas": [
+    "veja os artigos trinta e dois a trinta e quatro"
+   ]
+  },
+  {
+   "cat": "documento",
+   "texto": "Nos termos do § 2º.",
+   "aceitas": [
+    "nos termos do parágrafo segundo"
+   ]
+  },
+  {
+   "cat": "documento",
+   "texto": "O art. 10-A foi incluído.",
+   "aceitas": [
+    "o artigo dez a foi incluído"
+   ]
+  },
+  {
+   "cat": "documento",
+   "texto": "Processo 0001234-56.2026.8.20.0001.",
+   "aceitas": [
+    "processo zero zero zero um dois três quatro cinco seis dois zero dois seis oito dois zero zero zero zero um"
+   ]
+  },
+  {
+   "cat": "documento",
+   "texto": "CPF 98765432100.",
+   "aceitas": [
+    "CPF nove oito sete seis cinco quatro três dois um zero zero"
+   ]
+  },
+  {
+   "cat": "documento",
+   "texto": "Inciso III do art. 7º.",
+   "aceitas": [
+    "inciso três do artigo sétimo"
+   ]
+  },
+  {
+   "cat": "documento",
+   "texto": "Matrícula 000457.",
+   "aceitas": [
+    "matrícula zero zero zero quatro cinco sete"
+   ]
+  },
+  {
+   "cat": "contato",
+   "texto": "Ligue para (41) 99999-1234.",
+   "aceitas": [
+    "ligue para quatro um nove nove nove nove nove um dois três quatro"
+   ]
+  },
+  {
+   "cat": "contato",
+   "texto": "O telefone é 0800 123 4567.",
+   "aceitas": [
+    "o telefone é zero oito zero zero um dois três quatro cinco seis sete"
+   ]
+  },
+  {
+   "cat": "contato",
+   "texto": "Acesse www.prefeitura.rn.gov.br.",
+   "aceitas": [
+    "acesse www ponto prefeitura ponto rn ponto gov ponto br"
+   ]
+  },
+  {
+   "cat": "contato",
+   "texto": "Escreva para contato@igreja.org.",
+   "aceitas": [
+    "escreva para contato arroba igreja ponto org"
+   ]
+  },
+  {
+   "cat": "contato",
+   "texto": "WhatsApp (84) 3315-0000.",
+   "aceitas": [
+    "WhatsApp oito quatro três três um cinco zero zero zero zero"
+   ]
+  },
+  {
+   "cat": "contato",
+   "texto": "Fone: +55 41 3333-2222.",
+   "aceitas": [
+    "fone mais cinquenta e cinco quatro um três três três três dois dois dois dois"
+   ]
+  },
+  {
+   "cat": "contato",
+   "texto": "Veja https://www.gov.br/saude agora.",
+   "aceitas": [
+    "veja www ponto gov ponto br barra saude agora"
+   ]
+  },
+  {
+   "cat": "contato",
+   "texto": "Ligue 190.",
+   "aceitas": [
+    "ligue cento e noventa"
+   ]
+  },
+  {
+   "cat": "contato",
+   "texto": "Tel. 3222-1100.",
+   "aceitas": [
+    "telefone três dois dois dois um um zero zero"
+   ]
+  },
+  {
+   "cat": "unidade",
+   "texto": "A estrada tem 12 km.",
+   "aceitas": [
+    "a estrada tem doze quilômetros"
+   ]
+  },
+  {
+   "cat": "unidade",
+   "texto": "O terreno tem 450 m².",
+   "aceitas": [
+    "o terreno tem quatrocentos e cinquenta metros quadrados"
+   ]
+  },
+  {
+   "cat": "unidade",
+   "texto": "Desconto de 50%.",
+   "aceitas": [
+    "desconto de cinquenta por cento"
+   ]
+  },
+  {
+   "cat": "unidade",
+   "texto": "Inflação de 4,5%.",
+   "aceitas": [
+    "inflação de quatro vírgula cinco por cento"
+   ]
+  },
+  {
+   "cat": "unidade",
+   "texto": "Pesa 2 kg.",
+   "aceitas": [
+    "pesa dois quilos"
+   ]
+  },
+  {
+   "cat": "unidade",
+   "texto": "Use 500 ml de água.",
+   "aceitas": [
+    "use quinhentos mililitros de água"
+   ]
+  },
+  {
+   "cat": "unidade",
+   "texto": "Velocidade máxima de 60 km/h.",
+   "aceitas": [
+    "velocidade máxima de sessenta quilômetros por hora"
+   ]
+  },
+  {
+   "cat": "unidade",
+   "texto": "Temperatura de 30 °C.",
+   "aceitas": [
+    "temperatura de trinta graus celsius"
+   ]
+  },
+  {
+   "cat": "unidade",
+   "texto": "O tubo tem 3 cm.",
+   "aceitas": [
+    "o tubo tem três centímetros"
+   ]
+  },
+  {
+   "cat": "unidade",
+   "texto": "Choveu 120 mm.",
+   "aceitas": [
+    "choveu cento e vinte milímetros"
+   ]
+  },
+  {
+   "cat": "unidade",
+   "texto": "Correu 1 km.",
+   "aceitas": [
+    "correu um quilômetro"
+   ]
+  },
+  {
+   "cat": "unidade",
+   "texto": "Fez 25°C hoje.",
+   "aceitas": [
+    "fez vinte e cinco graus celsius hoje"
+   ]
+  },
+  {
+   "cat": "unidade",
+   "texto": "Área de 20 ha.",
+   "aceitas": [
+    "área de vinte hectares"
+   ]
+  },
+  {
+   "cat": "unidade",
+   "texto": "Beba 2 L de água.",
+   "aceitas": [
+    "beba dois litros de água"
+   ]
+  },
+  {
+   "cat": "unidade",
+   "texto": "Juros de 0,5% ao mês.",
+   "aceitas": [
+    "juros de zero vírgula cinco por cento ao mês"
+   ]
+  },
+  {
+   "cat": "saude",
+   "texto": "Tomar 0,5 mg à noite.",
+   "aceitas": [
+    "tomar zero vírgula cinco miligrama à noite"
+   ]
+  },
+  {
+   "cat": "saude",
+   "texto": "Tomar de 8/8h.",
+   "aceitas": [
+    "tomar de oito em oito horas"
+   ]
+  },
+  {
+   "cat": "saude",
+   "texto": "Usar 1x ao dia.",
+   "aceitas": [
+    "usar uma vez ao dia"
+   ]
+  },
+  {
+   "cat": "saude",
+   "texto": "Aplicar 2x por semana.",
+   "aceitas": [
+    "aplicar duas vezes por semana"
+   ]
+  },
+  {
+   "cat": "saude",
+   "texto": "Dose de 500 mg.",
+   "aceitas": [
+    "dose de quinhentos miligramas"
+   ]
+  },
+  {
+   "cat": "saude",
+   "texto": "Tomar 12/12h.",
+   "aceitas": [
+    "tomar doze em doze horas",
+    "tomar de doze em doze horas"
+   ]
+  },
+  {
+   "cat": "abreviacao",
+   "texto": "O Sr. João chegou.",
+   "aceitas": [
+    "o senhor joão chegou"
+   ]
+  },
+  {
+   "cat": "abreviacao",
+   "texto": "A Dra. Ana atende hoje.",
+   "aceitas": [
+    "a doutora ana atende hoje"
+   ]
+  },
+  {
+   "cat": "abreviacao",
+   "texto": "Fale com o Pr. Arthur.",
+   "aceitas": [
+    "fale com o pastor arthur"
+   ]
+  },
+  {
+   "cat": "abreviacao",
+   "texto": "A Profa. Maria saiu.",
+   "aceitas": [
+    "a professora maria saiu"
+   ]
+  },
+  {
+   "cat": "abreviacao",
+   "texto": "Rua das Flores, nº 45.",
+   "aceitas": [
+    "rua das flores número quarenta e cinco"
+   ]
+  },
+  {
+   "cat": "abreviacao",
+   "texto": "Av. Brasil, 1500.",
+   "aceitas": [
+    "avenida brasil mil e quinhentos"
+   ]
+  },
+  {
+   "cat": "abreviacao",
+   "texto": "Veja a pág. 12.",
+   "aceitas": [
+    "veja a página doze"
+   ]
+  },
+  {
+   "cat": "abreviacao",
+   "texto": "A Sra. Silva ligou.",
+   "aceitas": [
+    "a senhora silva ligou"
+   ]
+  },
+  {
+   "cat": "abreviacao",
+   "texto": "O Dr. Paulo operou.",
+   "aceitas": [
+    "o doutor paulo operou"
+   ]
+  },
+  {
+   "cat": "abreviacao",
+   "texto": "Empresa Exemplo Ltda.",
+   "aceitas": [
+    "empresa exemplo limitada"
+   ]
+  },
+  {
+   "cat": "abreviacao",
+   "texto": "Livros, cadernos etc.",
+   "aceitas": [
+    "livros cadernos etcétera"
+   ]
+  },
+  {
+   "cat": "abreviacao",
+   "texto": "Casa nº 7, Bloco B.",
+   "aceitas": [
+    "casa número sete bloco b"
+   ]
+  },
+  {
+   "cat": "abreviacao",
+   "texto": "Doces & salgados.",
+   "aceitas": [
+    "doces e salgados"
+   ]
+  },
+  {
+   "cat": "ordinal_romano",
+   "texto": "O XXI Congresso começa amanhã.",
+   "aceitas": [
+    "o vigésimo primeiro congresso começa amanhã"
+   ]
+  },
+  {
+   "cat": "ordinal_romano",
+   "texto": "Moro no 3º andar.",
+   "aceitas": [
+    "moro no terceiro andar"
+   ]
+  },
+  {
+   "cat": "ordinal_romano",
+   "texto": "Ficou em 2ª posição.",
+   "aceitas": [
+    "ficou em segunda posição"
+   ]
+  },
+  {
+   "cat": "ordinal_romano",
+   "texto": "Dom Pedro II governou.",
+   "aceitas": [
+    "dom pedro segundo governou"
+   ]
+  },
+  {
+   "cat": "ordinal_romano",
+   "texto": "No século XX houve guerras.",
+   "aceitas": [
+    "no século vinte houve guerras"
+   ]
+  },
+  {
+   "cat": "ordinal_romano",
+   "texto": "Leia o capítulo IV.",
+   "aceitas": [
+    "leia o capítulo quatro"
+   ]
+  },
+  {
+   "cat": "ordinal_romano",
+   "texto": "Foi o 10º aniversário.",
+   "aceitas": [
+    "foi o décimo aniversário"
+   ]
+  },
+  {
+   "cat": "ordinal_romano",
+   "texto": "O papa João XXIII.",
+   "aceitas": [
+    "o papa joão vinte e três"
+   ]
+  },
+  {
+   "cat": "ordinal_romano",
+   "texto": "A 1ª Igreja Batista.",
+   "aceitas": [
+    "a primeira igreja batista"
+   ]
+  },
+  {
+   "cat": "ordinal_romano",
+   "texto": "Bento XVI renunciou.",
+   "aceitas": [
+    "bento dezesseis renunciou"
+   ]
+  },
+  {
+   "cat": "ordinal_romano",
+   "texto": "No século V caiu Roma.",
+   "aceitas": [
+    "no século quinto caiu roma"
+   ]
+  },
+  {
+   "cat": "ordinal_romano",
+   "texto": "Henrique VIII casou seis vezes.",
+   "aceitas": [
+    "henrique oitavo casou seis vezes"
+   ]
+  },
+  {
+   "cat": "ordinal_romano",
+   "texto": "Ficou em 21º lugar.",
+   "aceitas": [
+    "ficou em vigésimo primeiro lugar"
+   ]
+  },
+  {
+   "cat": "ordinal_romano",
+   "texto": "Erro comum: 1° lugar.",
+   "aceitas": [
+    "erro comum primeiro lugar"
+   ]
+  },
+  {
+   "cat": "ordinal_romano",
+   "texto": "Título II da lei.",
+   "aceitas": [
+    "título dois da lei"
+   ]
+  },
+  {
+   "cat": "numero",
+   "texto": "Temos 3 casas.",
+   "aceitas": [
+    "temos três casas"
+   ]
+  },
+  {
+   "cat": "numero",
+   "texto": "São 21 pessoas.",
+   "aceitas": [
+    "são vinte e uma pessoas"
+   ]
+  },
+  {
+   "cat": "numero",
+   "texto": "Comprei 2 livros.",
+   "aceitas": [
+    "comprei dois livros"
+   ]
+  },
+  {
+   "cat": "numero",
+   "texto": "Há 1.500 inscritos.",
+   "aceitas": [
+    "há mil e quinhentos inscritos"
+   ]
+  },
+  {
+   "cat": "numero",
+   "texto": "Foram 1.000.000 de votos.",
+   "aceitas": [
+    "foram um milhão de votos"
+   ]
+  },
+  {
+   "cat": "numero",
+   "texto": "O índice é 0,75.",
+   "aceitas": [
+    "o índice é zero vírgula setenta e cinco"
+   ]
+  },
+  {
+   "cat": "numero",
+   "texto": "Vieram 2 mulheres.",
+   "aceitas": [
+    "vieram duas mulheres"
+   ]
+  },
+  {
+   "cat": "numero",
+   "texto": "Faltam 101 dias.",
+   "aceitas": [
+    "faltam cento e um dias"
+   ]
+  },
+  {
+   "cat": "numero",
+   "texto": "Foram 2 semanas.",
+   "aceitas": [
+    "foram duas semanas"
+   ]
+  },
+  {
+   "cat": "numero",
+   "texto": "Li 32 capítulos.",
+   "aceitas": [
+    "li trinta e dois capítulos"
+   ]
+  },
+  {
+   "cat": "numero",
+   "texto": "Vieram 200 famílias.",
+   "aceitas": [
+    "vieram duzentas famílias"
+   ]
+  },
+  {
+   "cat": "numero",
+   "texto": "Há 1 problema.",
+   "aceitas": [
+    "há um problema"
+   ]
+  },
+  {
+   "cat": "numero",
+   "texto": "Foram 2 dias.",
+   "aceitas": [
+    "foram dois dias"
+   ]
+  },
+  {
+   "cat": "numero",
+   "texto": "Temos 2 opções.",
+   "aceitas": [
+    "temos duas opções"
+   ]
+  },
+  {
+   "cat": "numero",
+   "texto": "Versão 2.5 lançada.",
+   "aceitas": [
+    "versão dois ponto cinco lançada"
+   ]
+  },
+  {
+   "cat": "numero",
+   "texto": "São 1.234.567 habitantes.",
+   "aceitas": [
+    "são um milhão duzentos e trinta e quatro mil quinhentos e sessenta e sete habitantes"
+   ]
+  },
+  {
+   "cat": "numero",
+   "texto": "Placa 007.",
+   "aceitas": [
+    "placa zero zero sete"
+   ]
+  },
+  {
+   "cat": "numero",
+   "texto": "Faixa de 10-12 anos.",
+   "aceitas": [
+    "faixa de dez a doze anos"
+   ]
+  },
+  {
+   "cat": "numero",
+   "texto": "Há 100 vagas.",
+   "aceitas": [
+    "há cem vagas"
+   ]
+  },
+  {
+   "cat": "numero",
+   "texto": "Fila de 1.100 pessoas.",
+   "aceitas": [
+    "fila de mil e cem pessoas"
+   ]
+  },
+  {
+   "cat": "biblia",
+   "texto": "Leia João 3:16.",
+   "aceitas": [
+    "leia joão capítulo três versículo dezesseis"
+   ]
+  },
+  {
+   "cat": "biblia",
+   "texto": "O Salmo 23:1 diz assim.",
+   "aceitas": [
+    "o salmo vinte e três versículo um diz assim"
+   ]
+  },
+  {
+   "cat": "biblia",
+   "texto": "Em Gênesis 1:1-3 lemos.",
+   "aceitas": [
+    "em gênesis capítulo um versículos um a três lemos"
+   ]
+  },
+  {
+   "cat": "biblia",
+   "texto": "Romanos 8.28.",
+   "aceitas": [
+    "romanos capítulo oito versículo vinte e oito"
+   ]
+  },
+  {
+   "cat": "biblia",
+   "texto": "1 Coríntios 13.",
+   "aceitas": [
+    "primeira coríntios capítulo treze"
+   ]
+  },
+  {
+   "cat": "biblia",
+   "texto": "Leia 1 Coríntios 13:4-7.",
+   "aceitas": [
+    "leia primeira coríntios capítulo treze versículos quatro a sete"
+   ]
+  },
+  {
+   "cat": "biblia",
+   "texto": "Em 2 Reis 5:1 está escrito.",
+   "aceitas": [
+    "em segundo reis capítulo cinco versículo um está escrito"
+   ]
+  },
+  {
+   "cat": "biblia",
+   "texto": "Leia Jo 3:16.",
+   "aceitas": [
+    "leia joão capítulo três versículo dezesseis"
+   ]
+  },
+  {
+   "cat": "biblia",
+   "texto": "Salmos 91.",
+   "aceitas": [
+    "salmos noventa e um"
+   ]
+  },
+  {
+   "cat": "biblia",
+   "texto": "Mateus 5:3-12 é o sermão.",
+   "aceitas": [
+    "mateus capítulo cinco versículos três a doze é o sermão"
+   ]
+  },
+  {
+   "cat": "biblia",
+   "texto": "1 João 4:8 diz que Deus é amor.",
+   "aceitas": [
+    "primeira joão capítulo quatro versículo oito diz que deus é amor"
+   ]
+  },
+  {
+   "cat": "biblia",
+   "texto": "Leia Sl 23:4.",
+   "aceitas": [
+    "leia salmo vinte e três versículo quatro"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Em 2026 começa a obra.",
+   "aceitas": [
+    "em dois mil e vinte e seis começa a obra"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Os 2 são novos.",
+   "aceitas": [
+    "os dois são novos"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "A página 2 mostra o mapa.",
+   "aceitas": [
+    "a página dois mostra o mapa"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Tomar de 8/8 horas.",
+   "aceitas": [
+    "tomar de oito em oito horas"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Maioria de 2/3.",
+   "aceitas": [
+    "maioria de dois barra três"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Spurgeon (1834-1892) pregou.",
+   "aceitas": [
+    "spurgeon mil oitocentos e trinta e quatro a mil oitocentos e noventa e dois pregou"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Fale com o Pr. Marcos 19:30 hoje.",
+   "aceitas": [
+    "fale com o pastor marcos dezenove trinta hoje"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Nível II do curso.",
+   "aceitas": [
+    "nível dois do curso"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Data: 4 de novembro de 2026 Duração: 28min.",
+   "aceitas": [
+    "data quatro de novembro de dois mil e vinte e seis duração vinte e oito minutos"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Usei o feriado de 20/11.",
+   "aceitas": [
+    "usei o feriado de vinte de novembro"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "EmCena (24/11) às 20h.",
+   "aceitas": [
+    "emcena vinte e quatro de novembro às vinte horas"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Hebreus 12:6 e 12:11.",
+   "aceitas": [
+    "hebreus capítulo doze versículo seis e doze onze"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Gerado em 05/11/2026 00:33.",
+   "aceitas": [
+    "gerado em cinco de novembro de dois mil e vinte e seis zero hora e trinta e três minutos"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Faixa de 2.000-4.000 palavras.",
+   "aceitas": [
+    "faixa de dois mil a quatro mil palavras"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Spring Boot 3.5.16 lançado.",
+   "aceitas": [
+    "spring boot três ponto cinco ponto dezesseis lançado"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Duration: 28m 57s.",
+   "aceitas": [
+    "duration vinte e oito minutos e cinquenta e sete segundos"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Timeout de 14m no comando.",
+   "aceitas": [
+    "timeout de quatorze m no comando"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Eu tenho 1,69m de altura.",
+   "aceitas": [
+    "eu tenho um vírgula sessenta e nove metro de altura"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Escreva 2.500 palavras.",
+   "aceitas": [
+    "escreva duas mil e quinhentas palavras"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Em 1 palavra.",
+   "aceitas": [
+    "em uma palavra"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Placar 17/17 verdes.",
+   "aceitas": [
+    "placar dezessete barra dezessete verdes"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Veja a pág. 3 agora.",
+   "aceitas": [
+    "veja a página três agora"
+   ]
+  },
+  {
+   "cat": "regressao",
+   "texto": "Fim do texto. 3 pessoas vieram.",
+   "aceitas": [
+    "fim do texto três pessoas vieram"
+   ]
+  }
+ ]
+}
